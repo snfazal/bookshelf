@@ -11,6 +11,11 @@ var logger          = require('morgan');
 var app = express();
 
 // configure middleware
+app.use(express.static('public'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(logger('dev'));
+
 
 // connect server
 app.listen(process.env.PORT || 4000, function(){
