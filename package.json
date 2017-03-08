@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/snfazal/bookshelf/issues"
   },
-  "homepage": "https://github.com/snfazal/bookshelf#readme"
+  "homepage": "https://github.com/snfazal/bookshelf#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1"
+  }
 }
